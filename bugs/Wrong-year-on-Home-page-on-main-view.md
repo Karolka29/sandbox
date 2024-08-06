@@ -3,6 +3,8 @@
 **https://skleptest.pl** On home page is 2016 Autumn Colection. It should be a current year. This view may discourage a
 user from shopping on this website.
 
+Priority: **High (Should have)** 
+
 # Steps to reproduce:
 
 1. Click link https://skleptest.pl/
