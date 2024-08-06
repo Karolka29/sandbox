@@ -1,10 +1,8 @@
 # **Unable to open the website.**
 
-The user can not open the website.
+**https://skleptest.pl** The user can not open the website.
 
 Priority: **Highest (must have)**
-
-Environment: **https://skleptest.pl**
 
 # Steps to reproduce:
 
