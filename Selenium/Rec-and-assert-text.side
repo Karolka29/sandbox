@@ -1,0 +1,79 @@
+{
+  "id": "caeb2abe-a85c-412a-98ba-9ebd8661f0fb",
+  "version": "2.0",
+  "name": "Zadania_automatyzacja_pegazus",
+  "url": "https://www.youtube.com/",
+  "tests": [{
+    "id": "4c46de77-e0d0-4c35-bb53-4e740f6fddf2",
+    "name": "Youtube",
+    "commands": [{
+      "id": "71e90960-73ae-4b52-b3ee-b282e2153a31",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d825304-a8de-4c6a-9a4d-784eb7a51024",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "981x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ee462fe-1d47-45ed-a6a9-407693bbc317",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f86b7cb8-fe6f-4271-953c-570038966a29",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " Try Not To Laugh Cats And Dogs Videos 😁 - Best Funniest Animals Video 2024 #2"
+    }, {
+      "id": "b7284a76-b756-4ae0-bc63-605498eacb1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#search-icon-legacy .yt-spec-icon-shape > div",
+      "targets": [
+        ["css=#search-icon-legacy .yt-spec-icon-shape > div", "css:finder"],
+        ["xpath=//button[@id='search-icon-legacy']/yt-icon/yt-icon-shape/icon-shape/div", "xpath:idRelative"],
+        ["xpath=//ytd-searchbox/button/yt-icon/yt-icon-shape/icon-shape/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c4d13a0-8685-4725-9928-0169e712fb40",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissible #video-title > .style-scope:nth-child(2)",
+      "targets": [],
+      "value": " Try Not To Laugh Cats And Dogs Videos 😁 - Best Funniest Animals Video 2024 #2"
+    }]
+  }],
+  "suites": [{
+    "id": "e1a0eca9-44b5-434d-b2f4-c064c1be5d13",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4c46de77-e0d0-4c35-bb53-4e740f6fddf2"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
